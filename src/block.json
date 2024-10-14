@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/formo-recipe-header",
+	"version": "0.1.0",
+	"title": "Formo Recipe Header",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Displays the recipes title and ingredients",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "formo-recipe-header",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
